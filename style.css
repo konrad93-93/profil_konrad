@@ -1,0 +1,96 @@
+body  {font-family: 'Tomorrow', sans-serif;background-image: url(images/martin.jpg);}
+h1 {color: white;
+text-align: center;
+background-color: black; 
+margin: 35px auto 35px;
+width: 672px;
+}
+h2 {color:}
+
+.skating {
+	color: white;
+	background-image: url(images/shawnskate.jpg);
+	width: 670px;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-size: cover;
+	background-position: top;
+	padding: 100px 0;
+	
+}
+
+.myname {
+	margin: 35px auto 30px auto;
+}
+
+
+.grevet {
+	display: block;
+	color: white; 
+	text-align: center;
+	background-image: url(images/grevedam.jpg);
+	width: 467px; 
+	height: 100%;
+	margin: 30px auto; 
+	background-size: cover;
+	padding: 100px ; 
+	}
+
+.container {flex-direction: row ;
+	justify-content: flex-start;
+	display: flex;
+	background-color: grey;
+	width: 280px
+	padding: 0px;
+	margin: 30px auto;
+
+	}
+
+.skatemarseille {
+		margin: 10px auto ;
+		position: relative;
+	}
+.skatemarseille h2 {
+	position: absolute;
+	top: 60px;
+	left: 100px;
+	opacity: 0;
+
+}
+
+.skatemarseille:hover h2 {
+	opacity: 1;
+	transition: 1s;
+}
+
+.bowlprado {
+		margin: 10px auto ;
+}
+
+.bowlprado h4 {
+	position: absolute;
+	top: 950px;
+	right: 140px; 
+	color: white;
+	opacity: 0;
+}
+
+.bowlprado:hover h4 {
+	opacity: 1;
+	transition: 1s;
+}
+#horizont {
+	flex-direction: row;
+	justify-content: space-between;
+	display: flex;
+	padding: 10px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+#horizont .skatevideo {
+	display: inline-block;
+	margin: 0 10px;
+
+}
